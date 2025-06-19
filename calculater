@@ -1,0 +1,25 @@
+print("choice.\n1 = add.\n2 = subctract.\n3 = multiply.\n4 = divide")
+first = int(input("Enter your first number: "))
+oprater = int(input("Enter a oprater: "))
+second = int(input("Enter your second number: "))
+
+if oprater == 1:
+    add=first+second
+    print(f" {first} + {second} = {add}")
+
+elif oprater == 2:
+    sub = first - second
+    print(f" {first} - {second} = {sub}")
+
+elif oprater == 3:
+    mult = first * second
+    print(f"{first} * {second} = {mult}")
+
+elif oprater == 4:
+    divide = first / second
+    rem = first % second
+    print(f"{first} / {second} = {divide}")
+    print(f"Reminder of {first} and {second} = {rem}")
+
+else:
+    print("Enter correct choice.\nchoices +, -, *, /.")
