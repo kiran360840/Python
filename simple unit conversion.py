@@ -12,7 +12,7 @@ if choice == 1:
 
 elif choice == 2:
     user_num = float(input("Enter miles to convert kilometer: "))
-    M = user_num / 0.621371
+    M = user_num * 1.60934
     print(f"Kilometer: {M}")
 
 elif choice == 3:
