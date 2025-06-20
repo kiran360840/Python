@@ -22,7 +22,7 @@ elif choice == 3:
 
 elif choice == 4:
     user_num = float(input("Enter Pound to Kilogram: "))
-    kg = user_num * 2.2
+    kg = user_num * 0.45359237
     print(f"Kilogram: {kg}")
 
 elif choice == 5:
